@@ -1,3 +1,3 @@
+[![Build Status](https://app.travis-ci.com/Vitalijvictor/myfirstHibernateApp.svg?branch=master)](https://app.travis-ci.com/Vitalijvictor/myfirstHibernateApp)
 
 
-[![Build Status](https://app.travis-ci.com/Vitalijvictor/myfirstHibernateApp.svg?branch=main)](https://app.travis-ci.com/Vitalijvictor/myfirstHibernateApp)
