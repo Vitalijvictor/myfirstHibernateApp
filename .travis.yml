@@ -6,6 +6,13 @@ jdk:
 # используем режим обычного пользователя для сборки проекта.
 sudo: false
 
+env:
+  global: CODECOV_TOKEN='ae31d6bc-0d50-4011
+  -8d7c-b7e47fd6945f'
+
+after_success:
+  - bash <(curl -s http://codecov.io/bash)
+
 # Отправлять уведомление на почтуyouremail@smtp.ru(Изменить на свою) если сборка упала
 notifications:
   email:
