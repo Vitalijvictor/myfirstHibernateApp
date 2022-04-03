@@ -10,6 +10,13 @@ env:
   global: CODECOV_TOKEN='ae31d6bc-0d50-4011
   -8d7c-b7e47fd6945f'
 
+coverage:
+  status:
+    project:
+      default:
+        target: 100%
+        threshold: 1%
+
 after_success:
   - bash <(curl -s http://codecov.io/bash)
 
